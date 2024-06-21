@@ -1,0 +1,61 @@
+body {
+    font-family: Verdana, sans-serif;
+    overflow: hidden;
+    margin: 0;
+}
+
+.oregon {
+    opacity: 50%;
+    z-index: 10;
+    position:absolute;
+}
+
+.profilepic {
+    float: left;
+    display: inline;
+    padding-left: 10%;
+    position: absolute;
+    z-index: 20;
+}
+
+.namecard {
+    position: absolute;
+    z-index: 30;
+    padding-left: 40%;
+    padding-top: 3%;
+    font-size: 40px;
+    color: #2F3426;
+}
+
+#container {
+    padding-top: 10%;
+    z-index: 20;
+}
+
+.about {
+    display: inline;
+    position: absolute;
+    padding-top: 15%;
+    z-index: 30;
+    padding-left: 71%;
+}
+
+.hobbies {
+    display: inline;
+    position: absolute;
+    padding-top: 15%;
+    z-index: 40;
+    padding-left: 48%;
+}
+
+button {
+    font-weight: bold;
+    color: #E3DAC9;
+    background-color: #48513A;
+    font-size: 40px;
+}
+
+button:hover {
+    background-color: #2F3426;
+    cursor: pointer;
+}

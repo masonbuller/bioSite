@@ -1,0 +1,74 @@
+body {
+    background-color: #48513A;
+    padding: 100px;
+    padding-top: 50px;
+    position: absolute;
+    font-family: Verdana, sans-serif;
+}
+
+.tumbler img {
+    width: 500px;
+    padding-left: 50px;
+}
+
+.cake img {
+    width: 500px;
+    padding-left: 50px;
+}
+
+.flowers img {
+    width: 450px;
+    padding-left: 80px;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.column2 {
+    float: right;
+    width: 50%;
+    align-items: center;
+    padding-left: 50px;
+}
+
+#container {
+    display: flex;
+}
+
+.tumbler p, .cake p, .flowers p {
+    text-align: center;
+    color: white;
+    padding-right: 60px;
+}
+
+.about {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+
+.about a {
+    color: white;
+}
+
+.about a:hover {
+    color: #E3DAC9;
+}
+
+
+.landing {
+    float: right;
+}
+
+.landing a { 
+    text-decoration: none;
+    color: white;
+}
+
+.landing a:hover {
+    color: #E3DAC9;
+}
